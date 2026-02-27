@@ -45,8 +45,16 @@ output/qwen3_dbt_lora/
 output/qwen3_dbt_merged/
 output/qwen3_4b_dbt_lora/
 
+# 4B模型相关文件
+output/Modelfile-4b
+output/Modelfile-f16
+merge_4b.yaml
+
 # 第三方代码
 llama.cpp-master/
+
+# 文档（不上传）
+docs/
 
 # 系统文件
 .DS_Store

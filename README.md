@@ -260,9 +260,6 @@ gradient_checkpointing: true
 dbt-counselor-bot/
 ├── datasets/
 │   └── train_final.json      # 训练数据集
-├── docs/
-│   ├── 技术博客_完整教程.md   # 详细教程
-│   └── 开发日志.md           # 开发记录
 ├── models/
 │   └── Qwen/Qwen3-1.7B/      # 基础模型（需下载）
 ├── output/
@@ -287,8 +284,4 @@ dbt-counselor-bot/
 
 ## 版权
 
-版权所有 © L定远
-
-## 许可证
-
-MIT License
+版权所有 © Hong-Guang-L | MIT License
