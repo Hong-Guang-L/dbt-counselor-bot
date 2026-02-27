@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.venv310/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 模型文件（太大不上传）
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# 输出文件
+output/*.gguf
+output/*.bin
+output/qwen3_dbt_lora/
+output/qwen3_dbt_merged/
+output/qwen3_4b_dbt_lora/
+
+# 第三方代码
+llama.cpp-master/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
