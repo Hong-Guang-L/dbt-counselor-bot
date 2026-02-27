@@ -1,9 +1,0 @@
-model_name_or_path: models/Qwen/Qwen3-4B
-adapter_name_or_path: output/qwen3_4b_dbt_lora
-template: qwen
-finetuning_type: lora
-
-export_dir: output/qwen3_4b_dbt_merged
-export_size: 2
-export_device: cpu
-export_legacy_format: false
